@@ -13,25 +13,29 @@
     <header class="head">
         <img src="assets/icon.svg" alt="icon">
         <p class="logo">Applet</p>
+        <!-- Навигация -->
         <nav>
             <ul>
-                <li>About</li>
-                <li>Projects</li>
-                <li>FAQ</li>
-                <li>Contacts</li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contacts">Contacts</a></li>
                 <li><img src="assets/sun.svg" alt="sun"></li>
             </ul>
         </nav>
-
     </header>
+
+    <!-- Главная секция -->
     <main class="container">
         <section class="first">
             <h1>Custom Digital Solutions for Ambitious Brands</h1>
             <p class="justP">Tailoring approaches to unique needs, transforming ideas into exceptional digital
                 experiences
             </p>
+            <section class="buttons">
             <button class="contact">Contact Us</button>
             <button class="projects">Projects</button>
+            </section>
             <img src="assets/viewOffice.png" alt="viewOffice">
         </section>
         <section class="second">
@@ -84,8 +88,8 @@
             <h2>Incredible attention to detail and professionalism. Our website turned out better than we imagined!</h2>
             <p>— Hana Saito</p>
             <p>Marketing Director, BrightWave</p>
-            <p><img src="assets/scroll.svg" alt="scroll"></p>
-            <img src="assets/woman.svg" alt="woman">
+            <img src="assets/scroll.svg" alt="scroll">
+            <img src="assets/woman.svg" alt="Illustration of a woman">
         </section>
         <section class="forth">
             <h4>Latest projects</h4>
@@ -93,13 +97,34 @@
             <p>Explore our portfolio of innovative, tailored solutions delivering exceptional results for our clients.
             </p>
             <article class="firstArticle">
-                <img src="assets/firstImage.jpeg" alt="websites">
+                <figure><img src="assets/firstImage.jpeg" alt="websites"></figure>
+                <header>
+                    <p>Website</p>
+                    <h3><a href="#">E-commerce Revolution</a></h3>
+                </header>
+                <p>E-commerce Revolution: Built a dynamic store with seamless payments and recommendations.</p>
+                <p>6 weeks | Next.js | Stripe API</p>
+                <time datetime="2024-01-18">18 Jan 2024</time>
             </article>
             <article class="secondArticle">
-                <img src="assets/secondImage.png" alt="websites">
+                <figure><img src="assets/secondImage.png" alt="websites"></figure>
+                <header>
+                    <p>Application</p>
+                    <h3><a href="#">EduLearn</a></h3>
+                </header>
+                <p>Designed an e-learning platform featuring video lessons, quizzes, and progress tracking.</p>
+                <p>8 months | React Native | AWS</p>
+                <time datetime="2025-01-15">15 Jan 2025</time>
             </article>
             <article class="thirdArticle">
-                <img src="assets/thirdImage.jpeg" alt="websites">
+                <figure><img src="assets/thirdImage.jpeg" alt="websites"></figure>
+                <header>
+                    <p>Website</p>
+                    <h3><a href="#">Urban Ride Hub</a></h3>
+                </header>
+                <p>Created a bike rental site with real-time availability, routes, and membership management.</p>
+                <p>3 weeks | Angular | Google Maps API</p>
+                <time datetime="2022-04-20">20 Apr 2022</time>
             </article>
             <button>View all projects</button>
         </section>
@@ -108,22 +133,28 @@
             <p>Answers to the most common questions about our services and processes.</p>
         </section>
         <section class="sixth">
-            <h4>Do you develop both websites and mobile apps? <img src="assets/minus.svg" alt="minus"></h4>
+            <h4>Do you develop both websites and mobile apps?</h4>
+            <img src="assets/minus.svg" alt="minus">
             <p>Yes, we specialize in developing both websites and mobile applications. Our team ensures that each
                 project is tailored to meet your business goals, whether it’s a website, a web application, or a mobile
                 app for iOS and Android.</p>
-            <h4>How long does it take to develop a project? <img src="assets/plus.svg" alt="minus"></h4>
-            <h4>What technologies do you use? <img src="assets/plus.svg" alt="plus"></h4>
-            <h4>Can you redesign an existing website or app? <img src="assets/plus.svg" alt="minus"></h4>
-            <h4>Do you provide post-launch support? <img src="assets/plus.svg" alt="minus"></h4>
-            <h4>How do I get a quote for my project? <img src="assets/plus.svg" alt="minus"></h4>
+            <h4>How long does it take to develop a project?</h4>
+            <img src="assets/plus.svg" alt="plus">
+            <h4>What technologies do you use?</h4>
+            <img src="assets/plus.svg" alt="plus">
+            <h4>Can you redesign an existing website or app?</h4>
+            <img src="assets/plus.svg" alt="plus">
+            <h4>Do you provide post-launch support?</h4>
+            <img src="assets/plus.svg" alt="plus">
+            <h4>How do I get a quote for my project?</h4>
+            <img src="assets/plus.svg" alt="plus">
         </section>
         <section class="seventh">
             <h4>Contact us</h4>
             <h2>Let’s build something great together</h2>
             <p>Have a project in mind? Reach out, and let’s bring your ideas to life.</p>
         </section>
-        <section class="eightth">
+        <section class="eighth">
             <figure><img src="assets/conver.svg" alt="smileIcon">
                 <figcaption class="smile">
                     <h3>Email us</h3>
@@ -142,7 +173,9 @@
                 <figcaption class="smile">
                     <h3>Visit us</h3>
                     <p>Visit our office HQ.</p>
-                    <a href="123 Innovation Street, San Francisco, CA 94105">123 Innovation Street, San Francisco, CA 94105</a>
+                    <a href="https://www.google.com/maps?q=123+Innovation+Street,+San+Francisco,+CA+94105" target="_blank">
+                        123 Innovation Street, San Francisco, CA 94105
+                    </a>
                 </figcaption>
             </figure>
             <figure><img src="assets/call.svg" alt="smileIcon">
@@ -153,19 +186,14 @@
                 </figcaption>
             </figure>
         </section>
+    </main>
         <footer>
             <hr>
             <p>© 2025 Applet. All rights reserved.</p>
-            <a href="thread"><img src="assets/thread.svg" alt="thread"></a>
-            <a href="linkedIn"><img src="assets/linkedIn.svg" alt="linkedIn"></a>
-            <a href="facebook"><img src="assets/facebook.svg" alt="facebook"></a>
-            <a href="github.com"><img src="assets/github.svg" alt="github.com"></a>
-
-
+            <a href="https://www.threads.net/"><img src="assets/thread.svg" alt="thread"></a>
+            <a href="https://ru.linkedin.com/"><img src="assets/linkedIn.svg" alt="linkedIn"></a>
+            <a href="https://www.facebook.com/?locale=ru_RU"><img src="assets/facebook.svg" alt="facebook"></a>
+            <a href="https://github.com/"><img src="assets/github.svg" alt="github.com"></a>
         </footer>
-
-    </main>
-
 </body>
-
 </html>
