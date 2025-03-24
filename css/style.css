@@ -27,7 +27,7 @@ body {
   height: 80px;
   align-self: stretch;
   flex-grow: 0;
-  /* border: 1px solid rgb(0, 0, 0); */
+  border: 1px solid rgb(0, 0, 0);
   align-content: space-between;
 }
 
@@ -38,7 +38,7 @@ body {
   align-items: center;
   padding: 0px 32px;
   background-color: white;
-  /* border: 1px solid saddlebrown; */
+  border: 1px solid saddlebrown;
   height: 24px;
   width: 1280px;
   max-width: 1280px;
@@ -46,10 +46,11 @@ body {
   margin: 23px auto;
 }
 
-.header .headerInside .icon {
+.icon {
   margin: 0 auto;
   width: 124px;
   height: 24px;
+  border: 1px solid rgb(21, 255, 0);
 }
 
 .icon .logo {
@@ -62,6 +63,7 @@ body {
   font-weight: 600;
   font-size: 24px;
   line-height: 24px;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .icon img {
@@ -69,8 +71,13 @@ body {
   width: 31px;
   height: 19px;
   left: 110px;
-  top: 3px;
+  top: 0px;
+  bottom: 0px;
   margin: 23px 0;
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 nav ul {
@@ -86,6 +93,7 @@ nav ul {
   height: 24px;
   width: 319px;
   letter-spacing: 0.4px;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 ul li a {
@@ -98,6 +106,7 @@ ul li a {
   line-height: 24px;
   align-items: center;
   justify-content: center;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .sun {
@@ -105,12 +114,13 @@ ul li a {
   align-items: center;
   width: 24px;
   height: 24px;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .hero {
   width: 1440px;
   height: 800px;
-  /* border: 1px solid rgb(0, 0, 0); */
+  border: 1px solid rgb(0, 0, 0);
   margin: 0 auto;
 }
 
@@ -126,7 +136,7 @@ ul li a {
   max-width: 1280px;
   height: 640px;
   margin: 80px auto;
-  /* border: 1px solid rgb(0, 0, 0); */
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .text1 {
@@ -138,7 +148,7 @@ ul li a {
   width: 624px;
   height: 335px;
   z-index: 1;
-  /* border: 1px solid rgb(0, 0, 0); */
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .first h1 .justP {
@@ -160,7 +170,7 @@ ul li a {
   line-height: 72px;
   letter-spacing: -0.02em;
   color: #181d27;
-  /* border: 1px solid rgb(0, 0, 0); */
+  border: 1px solid rgb(0, 0, 0);
   padding: 20px;
 }
 
@@ -172,7 +182,7 @@ ul li a {
   font-size: 20px;
   line-height: 30px;
   color: #535862;
-  /* border: 1px solid rgb(0, 0, 0); */
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .buttons {
@@ -183,7 +193,7 @@ ul li a {
   gap: 12px;
   width: 278px;
   height: 60px;
-  /* border: 1px solid rgb(0, 0, 0); */
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .button1 {
@@ -202,7 +212,7 @@ ul li a {
     inset 0px -2px 0px rgba(10, 13, 18, 0.05);
   border-radius: 10px;
   cursor: pointer;
-  /* border: 1px solid rgb(0, 0, 0); */
+  border: 1px solid rgb(0, 0, 0);
 }
 .contact {
   width: 98px;
@@ -211,7 +221,7 @@ ul li a {
   font-size: 18px;
   line-height: 28px;
   height: 28px;
-  /* border: 1px solid rgb(0, 0, 0); */
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .button2 {
@@ -231,7 +241,7 @@ ul li a {
     inset 0px -2px 0px rgba(10, 13, 18, 0.05);
   border-radius: 10px;
   cursor: pointer;
-  /* border: 1px solid rgb(0, 0, 0); */
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .project {
@@ -247,7 +257,7 @@ ul li a {
   font-size: 18px;
   line-height: 28px;
   color: #414651;
-  /* border: 1px solid rgb(0, 0, 0); */
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .first img {
@@ -259,5 +269,5 @@ ul li a {
   z-index: 0;
   right: 130px;
   margin: 0 auto;
-  /* border: 1px solid rgb(0, 0, 0); */
+  border: 1px solid rgb(0, 0, 0);
 }
