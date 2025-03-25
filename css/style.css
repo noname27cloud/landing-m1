@@ -21,24 +21,25 @@ body {
 }
 
 .header {
+  border: 1px solid rgb(0, 0, 0);
   flex: none;
   align-items: center;
   width: 1440px;
   height: 80px;
   align-self: stretch;
   flex-grow: 0;
-  border: 1px solid rgb(0, 0, 0);
   align-content: space-between;
 }
 
 .headerInside {
+  border: 1px solid saddlebrown;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
   padding: 0px 32px;
   background-color: white;
-  border: 1px solid saddlebrown;
+
   height: 24px;
   width: 1280px;
   max-width: 1280px;
@@ -47,12 +48,13 @@ body {
 }
 /*Applet*/
 .icon1 {
+  border: 1px solid rgb(0, 0, 0);
   width: 124px;
   height: 24px;
-  border: 1px solid rgb(0, 0, 0);
 }
 
 .icon1 .logo {
+  border: 1px solid rgb(0, 0, 0);
   position: absolute;
   width: 82px;
   height: 24px;
@@ -63,10 +65,10 @@ body {
   font-size: 24px;
   line-height: 24px;
   color: #000000;
-  border: 1px solid rgb(0, 0, 0);
 }
 
 .icon1 img {
+  border: 1px solid rgb(0, 0, 0);
   position: absolute;
   width: 31px;
   height: 19px;
@@ -74,13 +76,14 @@ body {
   top: 8.5px;
   bottom: 0px;
   margin: 23px 0;
-  border: 1px solid rgb(0, 0, 0);
+
   display: flex;
   align-items: center;
   justify-content: center;
 }
 /*Navigation*/
 nav {
+  border: 1px solid rgb(0, 0, 0);
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -88,11 +91,12 @@ nav {
   height: 24px;
   min-width: 319px;
   min-height: 24px;
-  border: 1px solid rgb(0, 0, 0);
+
   position: relative;
 }
 
 nav ul {
+  border: 1px solid rgb(0, 0, 0);
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -103,7 +107,6 @@ nav ul {
   padding: 0;
   gap: 20px;
   flex-shrink: 0;
-  border: 1px solid rgb(0, 0, 0);
 }
 
 ul li {
@@ -143,26 +146,15 @@ ul li a {
   width: 100%;
 }
 
-.sun {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 24px;
-  height: 24px;
-  flex-grow: 0;
-  flex-shrink: 0;
-  min-width: 24px;
-  min-height: 24px;
-}
-
 /*hero*/
 .hero {
+  border: 1px solid rgb(0, 0, 0);
   width: 1440px;
   height: 800px;
-  border: 1px solid rgb(0, 0, 0);
 }
 
 .first {
+  border: 1px solid black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -171,7 +163,6 @@ ul li a {
   width: 100%;
   height: 640px;
   margin: 80px auto;
-  border: 1px solid black;
 }
 
 .text1 {
@@ -202,8 +193,8 @@ ul li a {
 }
 
 .justP {
-  align-self: flex-start;
   border: 1px solid black;
+  align-self: flex-start;
   width: 560px;
   max-width: 560px;
   height: 60px;
@@ -216,6 +207,7 @@ ul li a {
 }
 
 .buttons {
+  border: 1px solid rgb(0, 0, 0);
   align-self: flex-start;
   position: relative;
   display: flex;
@@ -225,19 +217,6 @@ ul li a {
   gap: 10px;
   width: 278px;
   height: 60px;
-  border: 1px solid rgb(0, 0, 0);
-}
-
-.first img {
-  position: absolute;
-  width: 560px;
-  height: 640px;
-  top: 161px;
-  border-radius: 0px 64px;
-  z-index: 0;
-  right: 112px;
-  margin: 0 auto;
-  border: 1px solid rgb(0, 0, 0);
 }
 
 .button1 {
@@ -279,4 +258,16 @@ ul li a {
     inset 0px -2px 0px rgba(10, 13, 18, 0.05);
   border-radius: 10px;
   border: 1px solid #d5d7da;
+}
+
+.viewOffice {
+  position: absolute;
+  width: 560px;
+  height: 640px;
+  top: 161px;
+  border-radius: 0px 64px;
+  z-index: 0;
+  right: 112px;
+  margin: 0 auto;
+  border: 1px solid rgb(0, 0, 0);
 }
