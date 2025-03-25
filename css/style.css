@@ -43,7 +43,7 @@ body {
   width: 1280px;
   max-width: 1280px;
   align-self: stretch;
-  margin: 23px auto;
+  margin: 28px auto;
 }
 
 .icon1 {
@@ -57,11 +57,12 @@ body {
   width: 82px;
   height: 24px;
   left: 75px;
-  top: 1px;
+  top: 6px;
   margin: 23px 80px;
   font-weight: 600;
   font-size: 24px;
   line-height: 24px;
+  color: #000000;
   border: 1px solid rgb(0, 0, 0);
 }
 
@@ -69,25 +70,26 @@ body {
   position: absolute;
   width: 31px;
   height: 19px;
-  left: 120px;
-  top: 3.5px;
+  left: 113px;
+  top: 8.5px;
   bottom: 0px;
   margin: 23px 0;
-  /* border: 1px solid rgb(0, 0, 0); */
+  border: 1px solid rgb(0, 0, 0);
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 nav {
   display: flex;
-  border: 1px solid rgb(0, 0, 0);
   justify-content: flex-end;
   align-items: center;
   width: 319px;
   height: 24px;
-  position: absolute;
-  top: 24px;
-  right: 90px;
+  min-width: 319px;
+  min-height: 24px;
+  border: 1px solid rgb(0, 0, 0);
+  position: relative;
 }
 
 nav ul {
@@ -95,15 +97,25 @@ nav ul {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: flex-end;
+  width: 319px;
+  height: 24px;
   padding: 0;
-  gap: 20px; 
-  width: 100%;
-  height: 100%;
+  /* gap: 20px; */
+  flex-shrink: 0;
+  letter-spacing: 0.35px;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 ul li {
   display: flex;
   align-items: center;
+  flex-shrink: 0;
+}
+
+ul li:nth-child(1) {
+  width: 48px;
+  height: 24px;
 }
 
 ul li a {
@@ -112,19 +124,22 @@ ul li a {
   color: #535862;
   display: flex;
   align-items: center;
-  gap: 4px;
   line-height: 24px;
 }
 
-.sun {
+/* .sun {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 24px;
   height: 24px;
-  color: #535862;
-}
+  flex-grow: 0;
+  flex-shrink: 0;
+  min-width: 24px;
+  min-height: 24px;
+} */
 
+/*ppp*/
 .hero {
   width: 1440px;
   height: 800px;
