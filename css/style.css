@@ -190,6 +190,7 @@ ul li a {
   color: #181d27;
   font-family: "Inter";
   font-style: normal;
+  word-spacing: 17.5px;
 }
 
 .justP {
@@ -233,8 +234,9 @@ ul li a {
   justify-content: center;
   align-items: center;
   gap: 8px;
-  box-shadow: 0px 1px 2px rgba(10, 13, 18, 0.05), inset 0px 0px 0px 1px rgba138,
-    103, 214 inset 0px -2px 0px rgba(10, 13, 18, 0.05);
+  box-shadow: 0px 1px 2px rgba(10, 13, 18, 0.05),
+    inset 0px 0px 0px 1px rgba(138, 103, 214),
+    inset 0px -2px 0px rgba(10, 13, 18, 0.05);
   border-radius: 10px;
   border: 1px solid rgb(138, 103, 2140);
 }
@@ -269,5 +271,5 @@ ul li a {
   z-index: 0;
   right: 112px;
   margin: 0 auto;
-  border: 1px solid rgb(0, 0, 0);
+  /* border: 1px solid rgb(0, 0, 0); */
 }
