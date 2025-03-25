@@ -103,7 +103,7 @@ nav ul {
   padding: 0;
   /* gap: 20px; */
   flex-shrink: 0;
-  letter-spacing: 0.35px;
+  /* letter-spacing: 0.35px; */
   border: 1px solid rgb(0, 0, 0);
 }
 
@@ -116,6 +116,26 @@ ul li {
 ul li:nth-child(1) {
   width: 48px;
   height: 24px;
+}
+ul li:nth-child(2) {
+  width: 64px;
+  height: 24px;
+}
+ul li:nth-child(3) {
+  width: 32px;
+  height: 24px;
+}
+ul li:nth-child(4) {
+  width: 71px;
+  height: 24px;
+}
+ul li:nth-child(5) {
+  width: 24px;
+  height: 24px;
+}
+
+ul li:not(:last-child) {
+  margin-right: 20px;
 }
 
 ul li a {
