@@ -429,7 +429,7 @@ ul li a {
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 32px;
+  gap: 28px;
   width: 608px;
   height: 306px;
 }
@@ -507,4 +507,136 @@ ul li a {
   width: 480px;
   height: 448px;
   left: 65px;
+}
+
+.forth {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 96px 0px;
+  gap: 64px;
+  width: 1440px;
+  height: 992px;
+  background: #ffffff;
+}
+
+.forth1 {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  gap: 20px;
+  width: 768px;
+  max-width: 768px;
+  height: 160px;
+}
+
+.forth2 {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  width: 768px;
+  height: 80px;
+}
+
+.latest {
+  border: 1px solid black;
+  width: 768px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #6941c6;
+}
+
+.innov {
+  border: 1px solid black;
+  width: 768px;
+  height: 44px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #181d27;
+}
+
+.explore {
+  border: 1px solid black;
+  width: 768px;
+  height: 60px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #535862;
+}
+
+.forth3 {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 32px;
+  gap: 64px;
+  width: 1280px;
+  max-width: 1280px;
+  height: 576px;
+  min-height: 576px;
+}
+
+.forth4 {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  padding: 0px;
+  gap: 48px 32px;
+  width: 1216px;
+  height: 464px;
+}
+/* 
+.forth4 figure {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 384px;
+  min-width: 320px;
+  height: 464px;
+} */
+
+.forth figure img {
+  width: 384px;
+  height: 240px;
+  border-radius: 16px;
+}
+
+.forth4 article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 384px;
+  min-width: 320px;
+  height: 464px;
 }
