@@ -865,18 +865,25 @@ article header p {
 }
 
 .sixth h4 {
-  /* border: 1px solid black; */
-  width: 768px;
-  height: 28px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
   color: #181d27;
+  box-sizing: border-box;
+  padding: 24px 0px 0px;
+  width: 768px;
+  min-width: 320px;
+  height: 52px;
+  min-height: 52px;
+  border-top: 1px solid #e9eaeb;
 }
 
 .sixth p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 720px;
   height: 72px;
   font-family: "Inter";
@@ -888,20 +895,26 @@ article header p {
 }
 
 .sixth img {
+  display: inline;
+  align-items: center;
   width: 24px;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   position: absolute;
   right: 336px;
   width: 24px;
   height: 28px;
   max-height: 26px;
   max-width: 24px;
+  
 }
 
-.sixthSecond {
+.sixthFirst {
   display: flex;
-  min-height: 52px;
-  padding: 22px 0px 0px 0px;
-  border: none;
-  border-top: 1px solid #ebeced;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 768px;
+  height: 108px;
+  max-height: 108px;
 }
