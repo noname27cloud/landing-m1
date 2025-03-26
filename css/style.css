@@ -39,7 +39,6 @@ body {
   align-items: center;
   padding: 0px 32px;
   background-color: white;
-
   height: 24px;
   width: 1280px;
   max-width: 1280px;
@@ -91,7 +90,6 @@ nav {
   height: 24px;
   min-width: 319px;
   min-height: 24px;
-
   position: relative;
 }
 
@@ -301,7 +299,7 @@ ul li a {
 }
 
 .who {
-  /* border: 1px solid black; */
+  border: 1px solid black;
   height: 24px;
   font-family: "Inter";
   font-style: normal;
@@ -346,7 +344,6 @@ ul li a {
 }
 
 .third {
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -692,7 +689,6 @@ article header h3 {
   width: 384px;
   height: 88px;
   border: 1px solid black;
-  /* background-color: #000000; */
 }
 
 .forth4 header h6 {
@@ -705,7 +701,6 @@ article header h3 {
   font-size: 14px;
   line-height: 20px;
   color: #6941c6;
-  /* background-color: #000000; */
 }
 
 .hs {
@@ -739,6 +734,7 @@ article header h3 {
   width: 24px;
   height: 28px;
 }
+
 article header p {
   width: 384px;
   height: 48px;
@@ -755,13 +751,8 @@ article header p {
   flex-direction: column;
   padding: 0px;
   gap: 8px;
-  width: 195px;
-  height: 40px;
 }
-
 .forth5 p {
-  width: 250px;
-  height: 20px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -771,12 +762,40 @@ article header p {
 }
 
 .forth5 time {
-  width: 84px;
-  height: 20px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   color: #535862;
+}
+
+.firstArticle .forth5 p {
+  width: 196px;
+  height: 20px;
+}
+
+.firstArticle .forth5 time {
+  width: 82px;
+  height: 20px;
+}
+
+.secondArticle .forth5 p {
+  width: 206px;
+  height: 20px;
+}
+
+.secondArticle .forth5 time {
+  width: 81px;
+  height: 20px;
+}
+
+.thirdArticle .forth5 p {
+  width: 250px;
+  height: 20px;
+}
+
+.thirdArticle .forth5 time {
+  width: 84px;
+  height: 20px;
 }
