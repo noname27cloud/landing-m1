@@ -598,8 +598,41 @@ ul li a {
   min-height: 576px;
 }
 
+.viewButton {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 1216px;
+  height: 48px;
+}
+
+.view {
+  box-sizing: border-box;
+  border: none;
+  background-color: #7f56d9;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  width: 168px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0px 1px 2px rgba(10, 13, 18, 0.05),
+    inset 0px 0px 0px 1px rgba(138, 103, 214),
+    inset 0px -2px 0px rgba(10, 13, 18, 0.05);
+  border-radius: 8px;
+  border: 1px solid rgb(123, 94, 190);
+}
+
 .forth4 {
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -611,18 +644,6 @@ ul li a {
   width: 1216px;
   height: 464px;
 }
-/* 
-.forth4 figure {
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 20px;
-  width: 384px;
-  min-width: 320px;
-  height: 464px;
-} */
 
 .forth figure img {
   width: 384px;
@@ -639,4 +660,58 @@ ul li a {
   width: 384px;
   min-width: 320px;
   height: 464px;
+}
+
+article header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 384px;
+  height: 180px;
+}
+
+/* header p,
+header h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 384px;
+  height: 88px;
+} */
+
+.hs {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 384px;
+  height: 32px;
+}
+
+.hs a {
+  width: 344px;
+  height: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #181d27;
+  text-decoration: none;
+}
+
+.strike {
+  border: 1px solid black;
+  position: relative;
+  /* display: flex; */
+  left: 80px;
+  padding: 4px 0px 0px;
+  width: 24px;
+  height: 28px;
 }
