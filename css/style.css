@@ -190,7 +190,7 @@ ul li a {
   color: #181d27;
   font-family: "Inter";
   font-style: normal;
-  word-spacing: 17.5px;
+  word-spacing: 19px;
 }
 
 .justP {
@@ -271,5 +271,240 @@ ul li a {
   z-index: 0;
   right: 112px;
   margin: 0 auto;
-  /* border: 1px solid rgb(0, 0, 0); */
+  border: 1px solid rgb(0, 0, 0);
+}
+
+/*About*/
+.second {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 96px 0px;
+  width: 1440px;
+  height: 788px;
+  background-color: #fafafa;
+  gap: 32px;
+}
+
+.second1 {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 32px;
+  gap: 20px;
+  width: 768px;
+  max-width: 768px;
+  height: 160px;
+  min-height: 160px;
+}
+
+.who {
+  /* border: 1px solid black; */
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #6941c6;
+}
+
+.our {
+  height: 44px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #181d27;
+}
+
+.whoOur {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 768px;
+  height: 80px;
+}
+
+.we {
+  width: 768px;
+  height: 60px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #535862;
+  text-wrap: balance;
+}
+
+.third {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 1280px;
+  padding: 0px 32px;
+  gap: 64px 32px;
+  width: 1280px;
+  height: 372px;
+}
+
+.third figure {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  width: 384px;
+  min-width: 320px;
+  height: 154px;
+}
+
+.third figcaption {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 384px;
+  height: 86px;
+  min-height: 86px;
+}
+
+.third figcaption p {
+  border: 1px solid black;
+  width: 384px;
+  height: 48px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #535862;
+}
+
+/*Rating*/
+.containerThird1 {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 96px 0px;
+  gap: 64px;
+  width: 1440px;
+  height: 640px;
+  background: #ffffff;
+}
+
+.third1 {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1216px;
+  max-width: 1216px;
+  height: 448px;
+  background: #53389e;
+  border-radius: 24px;
+}
+
+.insideThird1 {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  width: 608px;
+  height: 306px;
+}
+
+.insideThird1 .rating {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 116px;
+  height: 20px;
+}
+
+.insideThird1 h2 {
+  border: 1px solid black;
+  width: 608px;
+  height: 132px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  /* max-width: 608px; */
+}
+
+.p2 {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  width: 608px;
+  height: 56px;
+}
+
+.hana {
+  border: 1px solid black;
+  width: 608px;
+  height: 28px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.mark {
+  border: 1px solid black;
+  width: 608px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #e9d7fe;
+}
+
+.woman1 {
+  border: 1px solid black;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 480px;
+  height: 448px;
+  min-height: 448px;
+  border-radius: 0px 24px 24px 0px;
+  position: relative;
+  width: 480px;
+  height: 448px;
+  left: 65px;
 }
