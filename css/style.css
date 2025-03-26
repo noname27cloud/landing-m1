@@ -734,7 +734,6 @@ article header h3 {
 .strike {
   border: 1px solid black;
   position: relative;
-  /* display: flex; */
   left: 0px;
   padding: 4px 0px 0px;
   width: 24px;
@@ -761,7 +760,7 @@ article header p {
 }
 
 .forth5 p {
-  width: 195px;
+  width: 250px;
   height: 20px;
   font-family: "Inter";
   font-style: normal;
@@ -772,7 +771,7 @@ article header p {
 }
 
 .forth5 time {
-  width: 82px;
+  width: 84px;
   height: 20px;
   font-family: "Inter";
   font-style: normal;
