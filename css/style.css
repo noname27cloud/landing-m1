@@ -26,7 +26,6 @@ body {
   align-items: center;
   width: 1440px;
   height: 80px;
-  align-self: stretch;
   flex-grow: 0;
   align-content: space-between;
 }
@@ -42,7 +41,6 @@ body {
   height: 24px;
   width: 1280px;
   max-width: 1280px;
-  align-self: stretch;
   margin: 28px auto;
 }
 /*Applet*/
@@ -235,7 +233,7 @@ ul li a {
     inset 0px 0px 0px 1px rgba(138, 103, 214),
     inset 0px -2px 0px rgba(10, 13, 18, 0.05);
   border-radius: 10px;
-  border: 1px solid rgb(138, 103, 2140);
+  border: 1px solid rgb(10, 13, 18, 0.05);
 }
 
 .button2 {
@@ -351,7 +349,6 @@ ul li a {
   width: 1280px;
   padding: 0px 32px;
   gap: 64px 32px;
-  width: 1280px;
   height: 372px;
 }
 
@@ -1056,8 +1053,6 @@ article header p {
 
 /* Dont finish*/
 .eighth a {
-  width: 133px;
-  height: 24px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -1065,13 +1060,8 @@ article header p {
   line-height: 24px;
   color: #6941c6;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   padding: 0px;
   gap: 6px;
-  width: 144px;
-  height: 24px;
 }
 
 .eighth2 {
@@ -1082,6 +1072,50 @@ article header p {
   gap: 20px;
   width: 238px;
   height: 106px;
+}
+
+.a1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+  width: 133px;
+  height: 24px;
+}
+
+.a2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+  width: 165px;
+  height: 24px;
+}
+
+.a3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+  width: 194px;
+  height: 48px;
+}
+
+.a4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+  width: 144px;
+  height: 24px;
 }
 
 footer {
