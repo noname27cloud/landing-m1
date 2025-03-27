@@ -17,6 +17,7 @@ body {
   font-style: normal;
   width: 1440px;
   height: 5023px;
+  align-self: stretch;
   margin: 0 auto;
 }
 
@@ -42,6 +43,7 @@ body {
   width: 1280px;
   max-width: 1280px;
   margin: 28px auto;
+  align-self: stretch;
 }
 /*Applet*/
 .icon1 {
@@ -346,9 +348,9 @@ ul li a {
   flex-wrap: wrap;
   align-items: flex-start;
   align-content: flex-start;
-  width: 1280px;
   padding: 0px 32px;
   gap: 64px 32px;
+  width: 1280px;
   height: 372px;
 }
 
