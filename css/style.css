@@ -13,16 +13,14 @@ body {
   background-color: #ffffff;
   color: #333;
   font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
   font-style: normal;
   width: 1440px;
   height: 5023px;
-  align-self: stretch;
   margin: 0 auto;
 }
 
+/*---Header---*/
 .header {
-  /* border: 1px solid rgb(0, 0, 0); */
   flex: none;
   align-items: center;
   width: 1440px;
@@ -32,7 +30,6 @@ body {
 }
 
 .headerInside {
-  /* border: 1px solid saddlebrown; */
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -43,17 +40,15 @@ body {
   width: 1280px;
   max-width: 1280px;
   margin: 28px auto;
-  align-self: stretch;
 }
-/*Applet*/
+
+/*---Applet---*/
 .icon1 {
-  /* border: 1px solid rgb(0, 0, 0); */
   width: 124px;
   height: 24px;
 }
 
 .icon1 .logo {
-  /* border: 1px solid rgb(0, 0, 0); */
   position: absolute;
   width: 82px;
   height: 24px;
@@ -67,7 +62,6 @@ body {
 }
 
 .icon1 img {
-  /* border: 1px solid rgb(0, 0, 0); */
   position: absolute;
   width: 31px;
   height: 19px;
@@ -79,9 +73,9 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 /*Navigation*/
 nav {
-  /* border: 1px solid rgb(0, 0, 0); */
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -93,7 +87,6 @@ nav {
 }
 
 nav ul {
-  /* border: 1px solid rgb(0, 0, 0); */
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -145,44 +138,51 @@ ul li a {
 
 /*hero*/
 .hero {
-  /* border: 1px solid rgb(0, 0, 0); */
   width: 1440px;
   height: 800px;
 }
 
 .first {
-  /* border: 1px solid black; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 32px;
   max-width: 1280px;
-  width: 100%;
   height: 640px;
-  margin: 80px auto;
+  max-height: 640px;
+  margin: 68px auto;
 }
 
-.text1 {
-  /* border: 1px solid black; */
+.text2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 35px;
+  gap: 20px;
+}
+
+.text1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 49px;
   width: 624px;
   height: 336px;
   z-index: 1;
+  position: relative;
+  top: -3px;
 }
 
 .title {
-  /* border: 1px solid black; */
   align-self: flex-start;
   width: 768px;
   max-width: 768px;
   height: 144px;
   font-weight: 600;
   font-size: 60px;
-  letter-spacing: -0.02em;
+  letter-spacing: 1px;
+  word-spacing: 20px;
   line-height: 72px;
   color: #181d27;
   font-family: "Inter";
@@ -191,7 +191,6 @@ ul li a {
 }
 
 .justP {
-  /* border: 1px solid black; */
   align-self: flex-start;
   width: 560px;
   max-width: 560px;
@@ -205,7 +204,6 @@ ul li a {
 }
 
 .buttons {
-  /* border: 1px solid rgb(0, 0, 0); */
   align-self: flex-start;
   position: relative;
   display: flex;
@@ -263,12 +261,11 @@ ul li a {
   position: absolute;
   width: 560px;
   height: 640px;
-  top: 161px;
+  top: 144px;
   border-radius: 0px 64px;
   z-index: 0;
   right: 112px;
   margin: 0 auto;
-  /* border: 1px solid rgb(0, 0, 0); */
 }
 
 /*About*/
@@ -606,6 +603,7 @@ ul li a {
 }
 
 .view {
+  cursor: pointer;
   box-sizing: border-box;
   border: none;
   background-color: #7f56d9;
@@ -625,6 +623,10 @@ ul li a {
     inset 0px -2px 0px rgba(10, 13, 18, 0.05);
   border-radius: 8px;
   border: 1px solid rgb(123, 94, 190);
+}
+
+.viewText {
+  text-decoration: none;
 }
 
 .forth4 {
