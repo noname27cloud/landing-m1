@@ -20,9 +20,6 @@ order: 1;
 align-self: stretch;
 flex-grow: 0;
 
-
-
-
 .first {
   /* max-height: 600px; */
   display: flex;
