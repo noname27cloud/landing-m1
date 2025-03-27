@@ -21,7 +21,7 @@ body {
 }
 
 .header {
-  border: 1px solid rgb(0, 0, 0);
+  /* border: 1px solid rgb(0, 0, 0); */
   flex: none;
   align-items: center;
   width: 1440px;
@@ -32,7 +32,7 @@ body {
 }
 
 .headerInside {
-  border: 1px solid saddlebrown;
+  /* border: 1px solid saddlebrown; */
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -47,13 +47,13 @@ body {
 }
 /*Applet*/
 .icon1 {
-  border: 1px solid rgb(0, 0, 0);
+  /* border: 1px solid rgb(0, 0, 0); */
   width: 124px;
   height: 24px;
 }
 
 .icon1 .logo {
-  border: 1px solid rgb(0, 0, 0);
+  /* border: 1px solid rgb(0, 0, 0); */
   position: absolute;
   width: 82px;
   height: 24px;
@@ -67,7 +67,7 @@ body {
 }
 
 .icon1 img {
-  border: 1px solid rgb(0, 0, 0);
+  /* border: 1px solid rgb(0, 0, 0); */
   position: absolute;
   width: 31px;
   height: 19px;
@@ -81,7 +81,7 @@ body {
 }
 /*Navigation*/
 nav {
-  border: 1px solid rgb(0, 0, 0);
+  /* border: 1px solid rgb(0, 0, 0); */
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -93,7 +93,7 @@ nav {
 }
 
 nav ul {
-  border: 1px solid rgb(0, 0, 0);
+  /* border: 1px solid rgb(0, 0, 0); */
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -145,13 +145,13 @@ ul li a {
 
 /*hero*/
 .hero {
-  border: 1px solid rgb(0, 0, 0);
+  /* border: 1px solid rgb(0, 0, 0); */
   width: 1440px;
   height: 800px;
 }
 
 .first {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -163,7 +163,7 @@ ul li a {
 }
 
 .text1 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -175,7 +175,7 @@ ul li a {
 }
 
 .title {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   align-self: flex-start;
   width: 768px;
   max-width: 768px;
@@ -191,7 +191,7 @@ ul li a {
 }
 
 .justP {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   align-self: flex-start;
   width: 560px;
   max-width: 560px;
@@ -205,7 +205,7 @@ ul li a {
 }
 
 .buttons {
-  border: 1px solid rgb(0, 0, 0);
+  /* border: 1px solid rgb(0, 0, 0); */
   align-self: flex-start;
   position: relative;
   display: flex;
@@ -268,12 +268,12 @@ ul li a {
   z-index: 0;
   right: 112px;
   margin: 0 auto;
-  border: 1px solid rgb(0, 0, 0);
+  /* border: 1px solid rgb(0, 0, 0); */
 }
 
 /*About*/
 .second {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -285,7 +285,7 @@ ul li a {
 }
 
 .second1 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -298,7 +298,7 @@ ul li a {
 }
 
 .who {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 24px;
   font-family: "Inter";
   font-style: normal;
@@ -356,7 +356,7 @@ ul li a {
 }
 
 .third figure {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -368,7 +368,7 @@ ul li a {
 }
 
 .third figcaption {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -380,7 +380,7 @@ ul li a {
 }
 
 .third figcaption p {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 384px;
   height: 48px;
   font-family: "Inter";
@@ -394,7 +394,7 @@ ul li a {
 
 /*Rating*/
 .containerThird1 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -407,7 +407,7 @@ ul li a {
 }
 
 .third1 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -420,7 +420,7 @@ ul li a {
 }
 
 .insideThird1 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -431,7 +431,7 @@ ul li a {
 }
 
 .insideThird1 .rating {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -442,7 +442,7 @@ ul li a {
 }
 
 .insideThird1 h2 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 608px;
   height: 132px;
   font-family: "Inter";
@@ -456,7 +456,7 @@ ul li a {
 }
 
 .p2 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -467,7 +467,7 @@ ul li a {
 }
 
 .hana {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 608px;
   height: 28px;
   font-family: "Inter";
@@ -479,7 +479,7 @@ ul li a {
 }
 
 .mark {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 608px;
   height: 24px;
   font-family: "Inter";
@@ -491,7 +491,7 @@ ul li a {
 }
 
 .woman1 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -506,7 +506,7 @@ ul li a {
 }
 
 .forth {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -518,7 +518,7 @@ ul li a {
 }
 
 .forth1 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -531,7 +531,7 @@ ul li a {
 }
 
 .forth2 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -542,7 +542,7 @@ ul li a {
 }
 
 .latest {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 768px;
   height: 24px;
   font-family: "Inter";
@@ -555,7 +555,7 @@ ul li a {
 }
 
 .innov {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 768px;
   height: 44px;
   font-family: "Inter";
@@ -569,7 +569,7 @@ ul li a {
 }
 
 .explore {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 768px;
   height: 60px;
   font-family: "Inter";
@@ -582,7 +582,7 @@ ul li a {
 }
 
 .forth3 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -595,7 +595,7 @@ ul li a {
 }
 
 .viewButton {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -642,7 +642,7 @@ ul li a {
 }
 
 .forth figure img {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 384px;
   height: 240px;
   border-radius: 16px;
@@ -657,7 +657,7 @@ ul li a {
   width: 384px;
   min-width: 320px;
   height: 464px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .forth4 article {
@@ -687,11 +687,11 @@ article header h3 {
   gap: 8px;
   width: 384px;
   height: 88px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .forth4 header h6 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 384px;
   height: 20px;
   font-family: "Inter";
@@ -703,7 +703,7 @@ article header h3 {
 }
 
 .hs {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -726,7 +726,7 @@ article header h3 {
 }
 
 .strike {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   position: relative;
   left: 0px;
   padding: 4px 0px 0px;
@@ -801,7 +801,7 @@ article header p {
 
 /*FAQ*/
 .fifth {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -813,7 +813,7 @@ article header p {
 }
 
 .fifth1 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -826,7 +826,7 @@ article header p {
 }
 
 .fifth1 h3 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 768px;
   height: 44px;
   font-family: "Inter";
@@ -841,7 +841,7 @@ article header p {
 }
 
 .fifth1 p {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 768px;
   height: 30px;
   font-family: "Inter";
@@ -854,7 +854,7 @@ article header p {
 }
 
 .sixth {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1111,7 +1111,7 @@ footer {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
   color: #d6bbfb;
 }
