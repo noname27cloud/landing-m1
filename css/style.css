@@ -1054,6 +1054,7 @@ article header p {
   max-height: 106px;
 }
 
+/* Dont finish*/
 .eighth a {
   width: 133px;
   height: 24px;
@@ -1063,6 +1064,14 @@ article header p {
   font-size: 16px;
   line-height: 24px;
   color: #6941c6;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+  width: 144px;
+  height: 24px;
 }
 
 .eighth2 {
@@ -1111,7 +1120,7 @@ footer {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #d6bbfb;
 }
