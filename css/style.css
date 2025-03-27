@@ -55,6 +55,15 @@ body {
 .icon1 {
   width: 124px;
   height: 24px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.icon1 .logo:hover {
+  color: white;
+}
+
+.icon1:hover {
+  background-color: antiquewhite;
 }
 
 .icon1 .logo {
