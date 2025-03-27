@@ -1029,3 +1029,48 @@ article header p {
   width: 1216px;
   height: 290px;
 }
+
+.eighth figure {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 64px;
+  width: 286px;
+  min-width: 280px;
+  height: 290px;
+  background: #fafafa;
+  border-radius: 0px;
+}
+
+.eighth1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 238px;
+  height: 106px;
+  max-height: 106px;
+}
+
+.eighth a {
+  width: 133px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6941c6;
+}
+
+.eighth2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 238px;
+  height: 106px;
+}
