@@ -293,7 +293,7 @@ ul li a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 110px 0px;
+  padding: 110px 0px 0px 0px;
   width: 1440px;
   height: 788px;
   background-color: #fafafa;
@@ -1141,7 +1141,7 @@ footer {
   flex-direction: row;
   align-items: flex-end;
   padding: 0px;
-  gap: 24px;
+  gap: 25px;
   width: 168px;
   height: 24px;
 }
