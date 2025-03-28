@@ -141,6 +141,11 @@ ul li a {
   width: 100%;
 }
 
+ul li a:hover {
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
 main {
   display: flex;
   flex-direction: column;
@@ -445,4 +450,8 @@ footer {
   gap: 24px;
   width: 168px;
   height: 24px;
+}
+
+.foot .a img:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
