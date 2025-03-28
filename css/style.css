@@ -730,6 +730,10 @@ article header h3 {
   text-decoration: none;
 }
 
+.hs a:hover {
+  text-decoration: underline;
+}
+
 .strike {
   position: relative;
   left: 0px;

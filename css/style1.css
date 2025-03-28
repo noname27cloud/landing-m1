@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -364,6 +368,10 @@ figure img {
   line-height: 32px;
   color: #181d27;
   text-decoration: none;
+}
+
+.hs a:hover {
+  text-decoration: underline;
 }
 
 .strike {
