@@ -51,7 +51,6 @@ body {
 .icon1 {
   width: 124px;
   height: 24px;
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .icon1 .logo {
